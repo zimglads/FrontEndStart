@@ -248,13 +248,6 @@
 	/*margin-right: 30px;*/
 }
 
-.work-item:last-child {
-/*	widows: 230px;
-	height: 150px;*/
-	/*width: 33%;	*/
-	margin-right: 0px;
-}
-
 .work-item_image {
 	overflow: hidden;
 
@@ -263,10 +256,13 @@
 	margin: 0 30px 79px 0 ;
 	justify-content: center;
 	background-color: #3a3a3a;
-	width: 30%;
-	min-width: 300px;
+	width: 370px;
+	min-width: 370px;
 	height: 420px
 
+}
+.work-item_image:last-child {
+	margin-right: 0px;
 }
 
 .work-item_image_link:hover {
@@ -294,6 +290,11 @@
 	background-color: #222222;
 	color: #fff;
 	transition: ease-out 0.5s;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
 }
 
 nav ul li a {
