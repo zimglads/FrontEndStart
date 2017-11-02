@@ -16,11 +16,12 @@
 
 .header {
 	/*width: 1920px;*/
-	height: 900px;
+	/*height: 900px;*/
 
 	background-image: url(../img/header_background.png);
 	background-repeat: no-repeat;
-	background-size: 1920px;
+	/*background-size: 100% 100%;*/
+	background-size: cover;
 	/*border-spacing: 0;*/
 
 	margin: 0 auto;
@@ -97,8 +98,121 @@
 }
 
 .header_slide_button {
-	margin-top: 12vw;
+	/*margin-top: 12vw;*/
+	margin-top: 250px;
+	margin-bottom: 50px
 }
+
+.section-tittle {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: #222222;
+	text-transform: uppercase;
+
+	/*margin-top: 250px;*/
+	margin-bottom: 40px;
+}
+
+.shape_black { 
+	background-color: #222222;
+	margin-bottom: 80px;
+	/*border-bottom: 2px solid white;*/
+
+}
+
+.service-tittle {
+	margin-top: 110px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.service-item {
+	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+.service-item-column {
+/*	widows: 230px;
+	height: 150px;*/
+	width: 33%;	
+	margin-right: 70px;
+}
+
+.service-item-column:last-child {
+/*	widows: 230px;
+	height: 150px;*/
+	/*width: 33%;	*/
+	margin-right: 0px;
+}
+
+.service-item-column_text-tittle {
+	margin-top: 40px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #222222;
+}
+
+.service-item-column_text {
+	margin-top: 35px;
+	margin-bottom: 120px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #222222;
+}
+
+.service-item-column_image {
+	height: 150px;
+}
+
+/*second css*/
+
+.second {
+	/*width: 1920px;*/
+	/*height: 500px;*/
+
+	background-image: url(../img/about-us_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*border-spacing: 0;*/
+
+	margin: 0 auto;
+}
+
+.second-text_tittle {
+	padding-top: 170px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 45px;
+	color: #fffefe;
+
+	text-transform: uppercase;
+}
+
+.second-text_content {
+	margin-top: 22px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #fffefe;
+}
+
+.second-text_more {
+	margin-top: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fffefe;
+}
+
+
 
 nav ul li a {
 	color: #fffefe;
