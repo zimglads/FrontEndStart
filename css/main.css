@@ -352,7 +352,7 @@
 
 .form-item_link {
 	width: 50%;
-	min-width: 240px;
+	/*min-width: 240px;*/
 	border: none;
 	border-bottom: 2px solid #afafaf;
 	background: none;
@@ -392,7 +392,7 @@
 
 .form-item_link_message {
 	width: 100%;
-	min-width: 520px;
+	/*min-width: 520px;*/
 
 	border: none;
 	border-bottom: 2px solid #afafaf;
@@ -500,6 +500,9 @@ div {
 		width: 90%;
 	}
 	.container-footer {
+		width: 90%;
+	}
+	.container-footer {
 		display: flex;
 		flex-direction: column;
 	}
@@ -509,7 +512,7 @@ div {
 	 }
 
 	 .form-item_link {
-	 	min-width: 100px;
+	 	/*min-width: 100px;*/
 	 }
 
 .work-item_image {
@@ -518,6 +521,18 @@ div {
 
 .work-item_image:last-child {
 	margin-bottom: 30px;
+}
+.second-image {
+	display: none;
+}
+
+.second_wrap {
+	display: flex;
+	justify-content: center;
+}
+.second-text {
+	width: 100%;
+	text-align: center;
 }
 
 }
