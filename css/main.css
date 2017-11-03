@@ -488,7 +488,7 @@ div {
 		margin: 10px;
 	}
 	.navigation_item {
-		margin: 10px 10px;
+		margin: 0px 0px;
 	}
 	.navigation_item:first-child {
 		margin: 10px 10px;
@@ -512,7 +512,7 @@ div {
 	 }
 
 	 .form-item_link {
-	 	/*min-width: 100px;*/
+	 	min-width: 100px;
 	 }
 
 .work-item_image {
