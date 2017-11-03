@@ -33,6 +33,7 @@
 
 .navigation-bar_items {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .navigation-bar {
@@ -261,7 +262,7 @@
 	justify-content: center;
 	background-color: #3a3a3a;
 	width: 370px;
-	min-width: 370px;
+	/*min-width: 370px;*/
 	height: 420px
 
 }
@@ -524,8 +525,6 @@ div {
 		width: 100%;
 	}
 
-
-	
 .work-item_image {
 	margin: 10px 0px;
 }
@@ -533,6 +532,7 @@ div {
 .work-item_image:last-child {
 	margin-bottom: 30px;
 }
+
 .second-image {
 	display: none;
 	flex-direction: column;
@@ -545,6 +545,15 @@ div {
 .second-text {
 	width: 100%;
 	text-align: center;
+}
+
+input.form-item_link:nth-child(2) {
+    margin-right: 0;
+}
+
+.social-item {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 }
