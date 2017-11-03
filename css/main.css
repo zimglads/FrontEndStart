@@ -12,6 +12,10 @@
 	margin: 0 auto;
  }
 
+/*.navigation-fixed {
+	position: fixed;
+}*/
+
 /*13.4375% (margin) */
 
 .header {
@@ -389,7 +393,7 @@
 .form-item_link_message {
 	width: 100%;
 	min-width: 520px;
-	
+
 	border: none;
 	border-bottom: 2px solid #afafaf;
 
@@ -432,6 +436,10 @@
 .work-button-text {
 	display: flex;
 	justify-content: center;
+}
+
+.anchor {
+	
 }
 
 nav ul li a {
